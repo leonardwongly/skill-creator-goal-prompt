@@ -1,7 +1,7 @@
 {
   "name": "skill-creator-goal-prompt",
-  "version": "1.0.0",
-  "description": "Print a reusable Codex goal prompt for creating or updating skills with the skill-creator workflow.",
+  "version": "1.1.0",
+  "description": "Print portable goal prompts for creating agent skills, powers, prompts, and reusable workflow packs across coding agents and IDEs.",
   "license": "MIT",
   "type": "module",
   "bin": {
@@ -15,6 +15,6 @@
     "node": ">=18"
   },
   "scripts": {
-    "test": "node bin/skill-creator-goal-prompt.js --help && node bin/skill-creator-goal-prompt.js --compact"
+    "test": "node bin/skill-creator-goal-prompt.js --help && node bin/skill-creator-goal-prompt.js --list-agents && node bin/skill-creator-goal-prompt.js --compact && node bin/skill-creator-goal-prompt.js --agent kiro-cli --compact && node bin/skill-creator-goal-prompt.js --agent codex --task \"create a pdf workflow\" --example \"Rotate this PDF\""
   }
 }
