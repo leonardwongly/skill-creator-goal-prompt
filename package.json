@@ -1,0 +1,20 @@
+{
+  "name": "skill-creator-goal-prompt",
+  "version": "1.0.0",
+  "description": "Print a reusable Codex goal prompt for creating or updating skills with the skill-creator workflow.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "skill-creator-goal-prompt": "./bin/skill-creator-goal-prompt.js"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node bin/skill-creator-goal-prompt.js --help && node bin/skill-creator-goal-prompt.js --compact"
+  }
+}
